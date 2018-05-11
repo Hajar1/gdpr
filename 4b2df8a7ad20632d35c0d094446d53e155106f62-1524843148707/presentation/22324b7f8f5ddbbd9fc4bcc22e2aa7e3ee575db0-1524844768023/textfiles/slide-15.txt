@@ -1,0 +1,6 @@
+Links and next steps
+www.test.bigbluebutton.org - Try the latest version of HTML5 client (updated
+soon!)
+www.docs.bigbluebutton.org/html/html5-install.html - Install on your server
+https://github.com/bigbluebutton/bigbluebutton/tree/v2.0.x-release - Pull the latest
+code and build the client

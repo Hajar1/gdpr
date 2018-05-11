@@ -1,0 +1,8 @@
+Access Keys
+The operation to activate the Hotkeys depends on the browser and
+its platform.
+Browser Windows Linux Mac
+Internet Explorer Alt
+Chrome Alt Alt Control + Alt
+Firefox Alt + Shift Alt + Shift Control + Alt
+Safari Alt Control + Alt

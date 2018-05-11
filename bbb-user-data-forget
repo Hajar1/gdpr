@@ -1,0 +1,28 @@
+#!/usr/bin/ruby
+
+#
+# bbb-user-data-forget.rb
+#
+
+require 'trollop'
+require_relative 'delUserInfo.rb'
+require_relative 'delUserInfoDryrun.rb'
+
+opts = Trollop.options do
+  opt :dryrun, 'runs a dry run'
+  opt :Delete, 'deletes user Data'
+  opt :userId, 'userId', type: :string
+  opt :recordingID, 'recordingID', type: :string
+end
+
+if opts[:userId].nil? || opts[:recordingID].nil?
+  puts 'please provide userId and recording ID like so:'
+  puts './bbb-user-data-forget -u <userID> -r <recordingId>'
+  return
+end
+
+if opts[:dryrun]
+  delUserInfoDryrun(opts[:userId], opts[:recordingID])
+else
+  delUserInfo(opts[:userId], opts[:recordingID])
+end

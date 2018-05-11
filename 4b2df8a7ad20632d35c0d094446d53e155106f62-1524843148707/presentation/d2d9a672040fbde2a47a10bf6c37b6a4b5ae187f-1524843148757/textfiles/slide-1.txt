@@ -1,0 +1,19 @@
+Current
+presenter
+Click to make
+this user the
+presenter.
+Click to mute/unmute this user’s microphone.
+Click to lock this user’s microphone (user can’t mute/unmute).
+A green checkmark appears when you have joined the
+audio bridge. Click to join/leave the audio.
+Click to mute/unmute your
+microphone.
+You control the audio and can make anyone (including yourself) the
+presenter.
+You can view, chat, and listen. If enabled, you can also unmute
+and share your webcam..
+Moderator/Presenter Viewer
+Welcome!
+To get started quickly, click an image below to watch a tutorial video.
+(launch test applet for testing desktop sharing)
