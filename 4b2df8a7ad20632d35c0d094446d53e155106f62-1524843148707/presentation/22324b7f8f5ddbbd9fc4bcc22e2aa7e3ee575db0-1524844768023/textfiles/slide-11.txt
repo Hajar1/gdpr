@@ -1,6 +1,0 @@
-Accessibility
-Improvements to Mobile Screen Reader
-Functionality
-Android: TalkBack
-IOS: VoiceOver
-Demo : https://www.youtube.com/watch?v=THj-XeohFP8
