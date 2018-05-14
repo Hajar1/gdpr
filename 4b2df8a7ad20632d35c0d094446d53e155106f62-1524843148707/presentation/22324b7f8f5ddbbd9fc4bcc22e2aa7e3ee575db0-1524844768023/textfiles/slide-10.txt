@@ -1,3 +1,0 @@
-Stress Testing
-● Large number of users (headless Chrome)
-● High-frequency drawing

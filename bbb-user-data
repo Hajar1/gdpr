@@ -36,9 +36,10 @@ def get_data(csv, userid, dirid)
 end
 
 def handle_events(csv, userid, events)
+  meeting_start = Integer(events.first.at_xpath('@timestamp').to_s)
   events.each do |e|
     e_module = e.at_xpath('@module').to_s
-    t_stamp = f_time(e.at_xpath('@timestamp').to_s)
+    t_stamp = f_time(Integer(e.at_xpath('@timestamp').to_s) - meeting_start)
     e_name = e.at_xpath('@eventname').to_s
     next if %w[PRESENTATION WHITEBOARD].include? e_module
     user?(e, userid) && handle_event(e, e_name, t_stamp, e_module, csv)
